@@ -1,0 +1,11 @@
+@font-face{
+	font-family:t1;
+	src:url(../font/calvin.ttf);
+}
+.ts{
+	font-family: "t1";
+	font-smoothing: antialiased;
+	text-shadow: 1px 1px 3px rgba(80,24,35,0.3);
+	font-size: 200%;
+	color:red;
+}
