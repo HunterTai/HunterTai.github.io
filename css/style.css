@@ -1,11 +1,18 @@
-@font-face{
-	font-family:t1;
-	src:url(../font/calvin.ttf);
+body{
+	/*margin: 0;*/
 }
-.ts{
-	font-family: "t1";
-	font-smoothing: antialiased;
-	text-shadow: 1px 1px 3px rgba(80,24,35,0.3);
-	font-size: 200%;
-	color:red;
+
+.icon{
+	width: 200px;
+	height: 200px;
+}
+
+#svg-weibo:hover #icon-weibo1{
+	fill:orange;
+}
+#svg-weibo:hover #icon-weibo2{
+	fill:red;
+}
+#svg-weibo:hover #icon-weibo3{
+	fill:black;
 }

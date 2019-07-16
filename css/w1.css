@@ -1,0 +1,73 @@
+.main-title{
+	
+	margin: 48px 26% 24px 26%;
+	padding-bottom: 8px;
+
+	text-align: center;
+	font-size: 1.2em;
+	letter-spacing: 4px;
+
+	/*text-decoration: underline;*/
+	border-bottom: 2px dotted;
+	/*display: inline-block;*/
+
+	font-family: "PingFang SC";
+
+}
+
+a{
+	text-decoration: none;
+	color:#000;
+}
+a:hover{
+	color:red;
+}
+
+.sub-title{
+
+	margin: 12px 0 8px 0;
+
+	font-family: "PingFang SC";
+
+}
+
+.main-p{
+
+	text-align: left;
+	text-indent: 24px;
+	letter-spacing: 1px;
+	line-height: 160%;
+
+	font-family: "Songti SC"
+
+}
+
+.sub-p{
+
+
+	padding-left: 24px;
+
+	text-align: left;
+	font-size:0.9em;
+	letter-spacing: 1px;
+	line-height: 160%;
+
+	font-family: "Songti SC"
+
+}
+
+.my-button{
+	margin: 36px 40%;
+	padding:12px 24px;
+	border-radius:8px;
+	background: linear-gradient(60deg,blue,purple);
+	border: none;
+	color:white;
+	outline:none;
+}
+.my-button:hover{
+	box-shadow:0 1px 8px purple;
+}
+.my-button:active{
+	box-shadow:0 1px 8px blue;
+}
