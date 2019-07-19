@@ -6,24 +6,41 @@
 		<title>Hello</title> 
 		<style>
 		@font-face{
-			font-family:my-lishu;
+			font-family:my-font;
 			src:url(font/calvin.ttf);
-		}		
+		}
+		@font-face{
+			font-family:my-font2;
+			src:url(font/AlibabaSans-Regular.ttf);
+		}			
 		.myt{
-			font-family:my-lishu;
+			font-family:my-font;
+			font-smooth:antialiased;
+			font-size: 9rem;
+			color:blue;
+		}
+		.myp{
+			font-family:"my-font2";
 			font-smooth:antialiased;
 			font-size: 1.5rem;
+			color:#333333;
 		}	 
 		body{text-align:center} 
 		.div{
-			margin:0 auto; width:400px; height:100px; border:1px solid #F00
+			margin:200px auto; width:800px; height:280px; 
 		}
-/* css注释：为了观察效果设置宽度 边框 高度等样式 */ 
+		.hello{
+			margin:30px auto; width:600px; height:80px;
+		}
+		/* css注释：为了观察效果设置宽度 边框 高度等样式 */ 
 		</style> 
 	</head> 
 	<body> 
 		<div class="div"> 
-			<p class="myt">Hello</p>
+			<div class="hello">
+				<center class="myt">Hello</center>
+				<center class="myp">available soon...</center>
+			</div>
 		</div> 
 	</body> 
 </html> 
